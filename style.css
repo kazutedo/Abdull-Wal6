@@ -1,0 +1,101 @@
+body{
+    background-color: #1d2630;
+}
+.clock{
+    width: 300px;
+    height: 300px;
+    margin: 8% auto 0;
+    border-radius: 50%;
+    border: 5px solid #666;
+    position: relative;
+    background: #cccc;
+}
+.dot{
+    width: 14px;
+    height: 14px;
+    background: #666;
+    border-radius: 50%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    position: absolute;
+    z-index: 10;
+}
+.h-hand{
+    background: #333;
+    width: 4px;
+    height: 65px;
+    z-index: 5;
+    position: absolute;
+    top: 79px;
+    left: 50%;
+    margin-left: -2px;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    transform-origin: 50% 72px;
+}
+.m-hand{
+    position: absolute;
+    z-index: 6;
+    width: 3px;
+    height: 100px;
+    background: #333;
+    top: 46px;
+    left: 50%;
+    margin-left: -2px;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    transform-origin:50% 105px ;
+}
+.s-hand{
+    position: absolute;
+    z-index: 7;
+    width: 2px;
+    height: 120px;
+    background: #c43a56;
+    top: 26px;
+    left: 50%;
+    margin-left: -1px;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    transform-origin: 50% 125px;
+}
+.info{
+    position: absolute;
+    color: #1d2630;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    left: 90px;
+    top: 80px;
+    font-family: 'Courier New', Courier, monospace;
+}
+span{
+    display: inline-block;
+    position: absolute;
+    color: #1d2630;
+    font: 22px;
+    font-weight: bold;
+    z-index: 4;
+}
+.hour-12{
+    top: 30px;
+    right: 50%;
+}
+.hour-3{
+    top: 140px;
+    right: 30px;
+}
+.hour-6{
+    bottom: 30px;
+    left: 50%;
+    margin-left: -5px;
+}
+.hour-9{
+    top: 140px;
+    left: 30px;
+}
+
